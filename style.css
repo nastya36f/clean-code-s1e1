@@ -36,19 +36,19 @@
     display: flex;
 }
 .list {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 .list-item,
 .caption {
-    list-style:none;
+    list-style: none;
 }
 
 /* ниже идет сброс дефолтных стилей, 
 поэтому использование теговых селекторов допустимо */
 input,
 button{
-    outline:none;
+    outline: none;
 }
 .button {
     background: none;
@@ -145,14 +145,14 @@ button{
 
 /* Edit Task */
 .list-item .list-item__task-input {
-    display:none;
+    display: none;
 }
 
 .edit-mode .list-item__task-input {
-    display:inline-block;
-    width:224px;
+    display: inline-block;
+    width: 224px;
 }
 
 .edit-mode .list-item__label {
-    display:none;
+    display: none;
 }
