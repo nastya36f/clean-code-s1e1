@@ -38,13 +38,15 @@
     margin:0;
     padding: 0px;
 }
-.list-item, .caption {
+.list-item,
+.caption {
     list-style:none;
 }
 
 /* ниже идет сброс дефолтных стилей, 
 поэтому использование теговых селекторов допустимо */
-input,button{
+input,
+button{
     outline:none;
 }
 .button {
